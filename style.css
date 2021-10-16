@@ -1,0 +1,57 @@
+#head{
+    background-color: rgb(255, 221, 68);
+    font-weight: bold;
+    font-size: 4vw;
+    font-family: cursive;
+    justify-content: center;
+    width:100%;
+    margin: 0px;
+}
+
+#initial{
+    background-color: mediumturquoise;
+    height: 50vw;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+#btn{
+    width: 20vw;
+    font-size: 2vw;
+    justify-content: center;
+}
+
+.block {
+    display: contents;
+ }
+
+ #btn1{
+     width:100%;
+     font-size: 2vw;
+ }
+
+ #content{
+    font-size: 1.3vw;
+    margin: 8vw;
+ }
+
+input[type="radio"]
+ {
+    width: 1.1vw; height: 1.1vw;
+ }
+
+ #category{
+    font-size: 2vw;
+ }
+
+ #sol{
+    font-size: 3vw;
+    background-color: palegreen;
+    padding: 1vw;
+    text-align: center;
+ }
+ #sol1{
+    font-size: 3vw;
+    background-color: palegreen;
+ }
