@@ -111,8 +111,7 @@ function shuffle(array) {
 function calculateScore(oriRes)
 {
     oriRes=oriRes.split(",");
-    let temp=document.getElementById("body");
-    temp.parentNode.removeChild(temp);
+    
     var score=0;
     for (var k = 0; k < oriRes.length; k++)
     {
@@ -135,9 +134,10 @@ function calculateScore(oriRes)
     } 
     
     }
-    console.log(oriRes);
-    console.log(score);
-
+    //console.log(oriRes);
+    //console.log(score);
+    let temp=document.getElementById("body");
+    temp.parentNode.removeChild(temp);
     let sol=document.createElement("div");
     sol.setAttribute("id","sol");
     sol.setAttribute("class","container");
